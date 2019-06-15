@@ -1,0 +1,114 @@
+$red: #C33737;
+$blue: #252934;
+
+.Features {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.FeaturesGroup {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    h1{
+        color: $red;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .FeaturesBlock {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        img {
+            position: absolute;
+            width: 1.6rem;
+            top: 20%;
+            left: 33%;
+        }
+        .Line {
+            width: 5px;
+            height: 72px;
+            background: grey;
+            border-radius: 50px;
+        }
+        .BlockText {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            h2 {
+                color: $blue;
+                font-size: 1rem;
+            }
+            p {
+                color: $blue;
+                font-size: 0.6rem;
+                opacity: 0.8;
+                line-height: 1rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hexagon {
+    position: relative;
+    width: 120px; 
+    height: 69.28px;
+    background-color: #252934;
+    margin: 34.64px 0;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 34.64px solid #252934;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 34.64px solid #252934;
+  }
