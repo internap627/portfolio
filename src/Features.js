@@ -8,7 +8,7 @@ const Features = () => {
     return (
         <div className='Features'>
             <div className='FeaturesGroup'>
-                <h1>What I do...</h1>
+                <h1>My <span>code</span> of conduct...</h1>
                 <div className='FeaturesBlock'>
                     <div class="hexagon"><img src={code} alt='code icon' /></div>
                     <div className='Line'></div>
@@ -31,7 +31,7 @@ const Features = () => {
                     <div className='Line'></div>
                     <div className='BlockText'>
                         <h2>Accessible content</h2>
-                        <p>With code I strive to make the internet accessible to those with disabilities. In this age one should be left behind.</p>
+                        <p>With code I strive to make the internet accessible to those with disabilities. In this age no one should be left behind.</p>
                     </div>
                    
                 </div>
