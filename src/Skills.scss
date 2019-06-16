@@ -1,0 +1,47 @@
+$blue: #252934;
+$red: #C33737;
+
+.Skills {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    background: $blue;
+}
+
+.SkillsGroup {
+    width: 80%;
+    min-height: 90vh;
+    // background: lightgray;
+    margin: auto;
+    display: flex;
+
+}
+
+.SkillsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+
+    h2 {
+        color: $red;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    p {
+        color: white;
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+}
+
+
+.SkillsIcons {
+    width: 50%;
+    display: flex;
+    .particles {
+        margin: auto;
+        width: 95%;
+        height: 95%;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Hero from './Hero';
 import Features from './Features';
+import Skills from './Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <Hero />
       <Features />
+      <Skills />
     </div>
   );
 }

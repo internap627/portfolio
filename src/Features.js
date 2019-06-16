@@ -10,7 +10,7 @@ const Features = () => {
             <div className='FeaturesGroup'>
                 <h1>My <span>code</span> of conduct...</h1>
                 <div className='FeaturesBlock'>
-                    <div class="hexagon"><img src={code} alt='code icon' /></div>
+                    <div className="hexagon"><img src={code} alt='code icon' /></div>
                     <div className='Line'></div>
                     <div className='BlockText'>
                         <h2>Choose your stack</h2>
@@ -18,7 +18,7 @@ const Features = () => {
                     </div>
                 </div>
                 <div className='FeaturesBlock'>
-                    <div class="hexagon"><img src={responsive} alt='code icon' /></div>
+                    <div className="hexagon"><img src={responsive} alt='code icon' /></div>
                     <div className='Line'></div>
                     <div className='BlockText'>
                         <h2>Responsive design</h2>
@@ -27,7 +27,7 @@ const Features = () => {
                     
                 </div>
                 <div className='FeaturesBlock'>
-                    <div class="hexagon"><img src={group} alt='code icon' /></div>
+                    <div className="hexagon"><img src={group} alt='code icon' /></div>
                     <div className='Line'></div>
                     <div className='BlockText'>
                         <h2>Accessible content</h2>
