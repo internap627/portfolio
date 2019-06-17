@@ -12,12 +12,33 @@ const Projects = () => {
         <div className='Projects'>
             <h1>Projects...</h1>
             <div className='ProjectImages'>
-                <img src={design} alt='project image' />
-                <img src={khabib} alt='project image' />
-                <img src={crypto} alt='project image' />
-                <img src={multisig} alt='project image' />
-                <img src={fact} alt='project image' />
-                <img src={stock} alt='project image' />
+                
+                <div className='Card one'>
+                    <h2>Design PPL</h2>
+                    <button>Site</button>
+                </div>
+                <div className='Card two'>
+                    <h2>Khabib Tribute</h2>
+                    <button>Site</button>
+                </div>
+                <div className='Card three'>
+                    <h2>Crypto Trends</h2>
+                    <button>Site</button>
+                </div>
+                <div className='Card four'>
+                    <h2>Portfolio</h2>
+                    <button>Site</button>
+                </div>
+                <div className='Card five'>
+                    <h2>Fact Factory</h2>
+                    <button>Code</button>
+                </div>
+                <div className='Card six'>
+                    <h2>Stock Tracker</h2>
+                    <button>Code</button>
+                </div>
+                
+                
             </div>
         </div>
     )
