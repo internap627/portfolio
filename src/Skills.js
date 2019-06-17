@@ -14,12 +14,16 @@ const Skills = () => {
     const particlesOptions = {
 	    "particles": {
 	        "number": {
-	            "value": 12,
+	            "value": 13,
 	            "density": {
 	                "enable": true,
 	                "value_area": 500
 	            }
-	        },
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "repulse"
+            },
 	        "line_linked": {
 	            "enable": false
 	        },

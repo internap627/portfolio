@@ -3,6 +3,7 @@ import './App.scss';
 import Hero from './Hero';
 import Features from './Features';
 import Skills from './Skills';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Features />
       <Skills />
+      <Projects />
     </div>
   );
 }
