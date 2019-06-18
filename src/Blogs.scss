@@ -2,7 +2,7 @@ $blue: #252934;
 $red: #C33737;
 
 
-.Projects {
+.Blogs {
     width: 100vw;
     min-height: 150vh;
     display: flex;
@@ -18,7 +18,7 @@ $red: #C33737;
 
 
 
-.ProjectImages {
+.BlogsImages {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 80%;
@@ -76,22 +76,22 @@ $red: #C33737;
         }
     }
     .one {
-        background-image: url('./images/design-app.png');
+        background-image: url('./images/speech-blog.png');
     }
     .two {
-        background-image: url('./images/khabib-app.png');
+        background-image: url('./images/context-blog.png');
     }
     .three {
-        background-image: url('./images/crypto-app.png');
+        background-image: url('./images/solidity-blog.png');
     }
     .four {
-        background-image: url('./images/multisig-app.png');
+        background-image: url('./images/javascript1-blog.png');
     }
     .five {
-        background-image: url('./images/fact-app.png');
+        background-image: url('./images/green-blog.jpeg');
     }
     .six {
-        background-image: url('./images/stock-app.png');
+        background-image: url('./images/security-blog.jpeg');
     }
     
     

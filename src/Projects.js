@@ -15,27 +15,27 @@ const Projects = () => {
                 
                 <div className='Card one'>
                     <h2>Design PPL</h2>
-                    <button>Site</button>
+                    <a href='https://designppl.netlify.com/' rel='noopener noreferrer' target='_blank'><button>Site</button></a>
                 </div>
                 <div className='Card two'>
                     <h2>Khabib Tribute</h2>
-                    <button>Site</button>
+                    <a href='https://khabibtribute.netlify.com/' rel='noopener noreferrer' target='_blank'><button>Site</button></a>
                 </div>
                 <div className='Card three'>
                     <h2>Crypto Trends</h2>
-                    <button>Site</button>
+                    <a href='https://cryptotrendsapp.netlify.com/' rel='noopener noreferrer' target='_blank'><button>Site</button></a>
                 </div>
                 <div className='Card four'>
                     <h2>Portfolio</h2>
-                    <button>Site</button>
+                    <a href='https://multisig.netlify.com/' rel='noopener noreferrer' target='_blank'><button>Site</button></a>
                 </div>
                 <div className='Card five'>
                     <h2>Fact Factory</h2>
-                    <button>Code</button>
+                    <a href='https://github.com/internap627/fact_factory_backend' rel='noopener noreferrer' target='_blank'><button>Code</button></a>
                 </div>
                 <div className='Card six'>
                     <h2>Stock Tracker</h2>
-                    <button>Code</button>
+                    <a href='https://github.com/internap627/stock_app' rel='noopener noreferrer' target='_blank'><button>Code</button></a>
                 </div>
                 
                 
