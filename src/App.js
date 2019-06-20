@@ -5,6 +5,7 @@ import Features from './Features';
 import Skills from './Skills';
 import Projects from './Projects';
 import Blogs from './Blogs'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Blogs />
+      <Contact />
     </div>
   );
 }
