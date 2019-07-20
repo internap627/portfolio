@@ -4,18 +4,27 @@ $blue: #252934;
 
 .Features {
     width: 100vw;
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
+    align-items: center;
+}
+
+@media (min-width: 491px) {
+        .Features {
+            min-height: 100vh;
+            .FeaturesGroup {
+                height: 90vh;
+            }
+        }
 }
 
 .FeaturesGroup {
     width: 100vw;
-    height: 100vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
 
     h1{
         color: $red;
