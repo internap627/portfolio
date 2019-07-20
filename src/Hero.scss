@@ -29,25 +29,40 @@ $blue: #252934;
     color: white;
     z-index: 10;
     h1 {
-        font-size: 1.4rem;
+        font-size: 1rem;
         opacity: 0;
         animation: HeroAnimation 3s linear 0.5s 1 forwards;
 
         span {
-            font-size: 1.4rem;
+            font-size: 1rem;
             color: $red;
         }
     }
+    @media (min-width: 491px) {
+        h1 {
+            font-size: 1.4rem;
+            span {
+                font-size: 1.4rem;
+            }
+        }
+        h2 {
+            font-size: 1rem;
+        }
+        button {
+            width: 12rem;
+            height: 2.5rem;
+        }
+    }
     h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         width: 75%;
         opacity: 0;
         animation: HeroAnimation 3s linear 2s 1 forwards;
     }
     
     button {
-        width: 12rem;
-        height: 2.5rem;
+        width: 10rem;
+        height: 2rem;
         color: white;
         background: $blue;
         border: $red solid 2px;
